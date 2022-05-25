@@ -1,7 +1,23 @@
 .logo_text{
     color: white;
     text-align: center;
+    color: red;
+    font-size: 20px;
+    animation-name: portfolio;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
+.logo_minitext{
+    color: white;
+    text-align: center;
+}
+@keyframes portfolio {
+    0%   {color:white; left:0px; top:0px;}
+    25%  {color:rgb(0, 255, 0); left:200px; top:200px;}
+    50%  {color:rgb(255, 251, 0); left:200px; top:200px;}
+    75%  {color:rgb(0, 208, 255); left:200px; top:200px;}
+    100% {color:white; left:0px; top:0px;}
+  }
 
 .first{
     color: white;
@@ -10,7 +26,7 @@
 }
 
 .first a{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .second{
@@ -20,7 +36,17 @@
 }
 
 .second a{
+    color: rgb(255, 255, 255);
+}
+
+.third{
     color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.third a{
+    color: rgb(255, 255, 255);
 }
 
 .background {
