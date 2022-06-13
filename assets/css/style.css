@@ -49,6 +49,16 @@
     color: rgb(255, 255, 255);
 }
 
+.funsite{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.funsite a{
+    color: rgb(255, 255, 255);
+}
+
 .background {
     background-repeat: no-repeat;
     background-attachment: fixed;
