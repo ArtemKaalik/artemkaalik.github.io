@@ -1,0 +1,31 @@
+/* footer */
+
+.footer {
+    min-height: 140px;
+    background-color: #303030;
+    padding: 25px 0 25px;
+    color: #fff;
+}
+
+.footer .container {
+    height:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+
+.footer .subtitle {
+    font-size:20px;
+}
+
+.footer .link {
+    display:block;
+    margin-top:15px;
+    font-size:16px;
+    color:#fff;
+}
+
+.footer .call {
+    text-align:right;
+}
+/* Footer end */

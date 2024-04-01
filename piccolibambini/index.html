@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header-page.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/footer-page.css">
+    <link rel="stylesheet" href="assets/css/modalwindow.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piccoli Bambini OU</title>
+</head>
+
+<body>
+<!-- Header -->
+<header class="header-page">
+    <div class="container header-page__container">
+      <div class="header-page__start">
+        <div class="logo">
+          <img class="logo" src="#" alt="" width="127" height="21">
+        </div>
+      </div>
+      <div class="header-page__end">
+        <nav class="header-page__nav">
+          <ul class="header-page__ul">
+            <li class="header-page__li">
+              <a class="header-page__link" href="#" data-scroll-to="section-catalog">
+                <span class="header-page__text">Товары</span>
+              </a>
+            </li>
+            <li class="header-page__li">
+              <a class="header-page__link" href="#" data-scroll-to="section-catalog">
+                <span class="header-page__text">О нас</span>
+              </a>
+            </li>
+            <li class="header-page__li">
+              <a class="header-page__link" href="#" data-scroll-to="section-catalog">
+                <span class="header-page__text">Контакты</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-page__hamburger">
+          <button class="btn-menu" type="button" data-modalwindow="modalwindow-menu">
+            <span class="btn-menu__box">
+              <span class="btn-menu__inner"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+<!-- Header end -->
+
+<div data-aos="fade-down">
+    <section class id="trees-info">
+        <div class="text-introduction">
+            <div class="info-section-container">
+            <h2>Производитель искусственных елок</h2>            
+                <p>Мы более 19 лет являемся производителем искусственных елок – продукция высочайшего качества. Мы работаем на рынке производства искусственных елок и оптовой продажи материалов для изготовления искусственных елок и венков с 2005 года. Мы делаем ставку на высококачественные товары, как отечественные, так и зарубежные, ведущим импортером которых являемся.</p>
+                <p>Мы динамично развивающаяся компания, постоянно совершенствующая нашу производственную линию. Из года в год мы расширяем ассортимент нашей продукции и повышаем ее качество, о чем свидетельствуют постоянные потребители елок, а также клиенты, всесторонне поставляющие у нас материалы, используемые для производства искусственных елок.</p>
+                <p>Мы можем похвастаться богатым предложением-доступны искусственные елки высотой от 30 см до 3 м, богатой цветовой гаммой и отделкой. Мы также производим искусственные елки нестандартных размеров в соответствии с потребностями наших клиентов. Вся продукция изготавливается из импортной ПВХ-пленки самого высокого качества с использованием современной производственной линии, что позволяет сохранить высокое качество нашей продукции.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<!-- <div data-aos="fade-right">
+
+        <div class="swiper-container slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./assets/images/alex120.jpg"></div>
+                <div class="swiper-slide"><img src="./assets/images/alex150.jpg"></div>
+                <div class="swiper-slide"><img src="./assets/images/alex180.jpg"></div>
+                <div class="swiper-slide"><img src="./assets/images/alisa190.jpg"></div>
+                <div class="swiper-slide"><img src="./assets/images/alisa225.jpg"></div>
+                <div class="swiper-slide"><img src="./assets/images/alisa240.jpg"></div>
+                <div class="swiper-slide"><img src="./assets/images/dina160.jpg"></div>
+                <div class="swiper-slide"><img src="./assets/images/dina190.jpg"></div>
+                <div class="swiper-slide"><img src="./assets/images/dina225.jpg"></div>
+            </div>
+        </div>
+
+</div> -->
+
+<!-- Каталог товаров -->
+<div data-aos="fade-down">
+    <section class="section-catalog">
+        <div class="container">
+            <header class="section__header">
+                <h2 class="page-title">Наши товары</h2>
+                <nav class="catalog-nav">
+                    <ul class="catalog-nav__wrapper">
+                        <li class="catalog-nav__item">
+                            <button class="catalog-nav__btn is-active" type="button" data-filter="all">Все</button>
+                        </li>
+                        <li class="catalog-nav__item">
+                            <button class="catalog-nav__btn" type="button" data-filter="trimmed">Стриженные</button>
+                        </li>
+                        <li class="catalog-nav__item">
+                            <button class="catalog-nav__btn" type="button" data-filter="standart">Стандартные</button>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="catalog">
+                <div class="catalog__item" data-category="trimmed">
+                    <div class="product catalog__product">
+                        <img src="assets/images/alex120.jpg" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Alex</h3>
+                            <p class="product__description">Ёлка Алекс</p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">120см</button>
+                                <button class="product__size" type="button">150см</button>
+                                <button class="product__size" type="button">180см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">35</span>
+                                    <span class="product__currency">&euro;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-modalwindow="modalwindow-order">Заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <div class="catalog__item" data-category="standart">
+                    <div class="product catalog__product">
+                        <img src="assets/images/alisa190.jpg" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Alisa</h3>
+                            <p class="product__description">Ёлка Alisa</p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">190см</button>
+                                <button class="product__size" type="button">225см</button>
+                                <button class="product__size" type="button">240см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">35</span>
+                                    <span class="product__currency">&euro;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-modalwindow="modalwindow-order">Заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <div class="catalog__item" data-category="standart">
+                    <div class="product catalog__product">
+                        <img src="assets/images/dina160.jpg" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Dina</h3>
+                            <p class="product__description">Ёлка Dina</p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">160см</button>
+                                <button class="product__size" type="button">190см</button>
+                                <button class="product__size" type="button">225см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">35</span>
+                                    <span class="product__currency">&euro;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-modalwindow="modalwindow-order">Заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <div class="catalog__item" data-category="trimmed">
+                    <div class="product catalog__product">
+                        <img src="assets/images/alex150.jpg" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Nika</h3>
+                            <p class="product__description">Ёлка Ника</p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">120см</button>
+                                <button class="product__size" type="button">150см</button>
+                                <button class="product__size" type="button">180см</button>
+                                <button class="product__size" type="button">210см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">35</span>
+                                    <span class="product__currency">&euro;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-modalwindow="modalwindow-order">Заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="social">
+            <div class="subtitle">Мы в социальных сетях:</div>
+            <a href="#" class="link">instagram</a>
+            <a href="#" class="link">facebook</a>
+        </div>
+        <div class="logo">
+            <img src="#" alt="logo">
+        </div>
+        <div class="call">
+            <div class="subtitle">Узнайте о нас больше!</div>
+            <a href="info.html" class="link">О нас</a>
+            <a href="#" class="link">+37200000</a>
+        </div>
+    </div>
+</footer>
+
+<!-- Modal Window -->
+
+<div class="modalwindow modalwindow-menu">
+    <div class="modalwindow__wrapper">
+        <div class="modalwindow__inner">
+            <div class="modalwindow__content modalwindow__content--padding modalwindow__content--centered">
+                <button class="btn-close modalwindow__btn-close modalwindow-close"></button>
+                <nav class="mobile-menu popup__mobile-menu">
+                    <ul class="mobile-menu__ul">
+                      <li class="mobile-menu__li">
+                        <a class="mobile-menu__link modalwindow-close" href="#" data-scroll-to="section-catalog">Товары</a>
+                      </li>
+                      <li class="mobile-menu__li">
+                        <a class="mobile-menu__link modalwindow-close" href="#" data-scroll-to="section-catalog">О нас</a>
+                      </li>
+                      <li class="mobile-menu__li">
+                        <a class="mobile-menu__link modalwindow-close" href="#" data-scroll-to="section-catalog">Контакты</a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Window End -->
+
+<!-- Modal Window Order -->
+
+<div class="modalwindow modalwindow-order">
+    <div class="modalwindow__wrapper">
+        <div class="modalwindow__inner">
+            <div class="modalwindow__content">
+                <button class="btn-close modalwindow__btn-close modalwindow-close"></button>
+                <h2 class="page-title modalwindow__title">Заполните форму</h2>
+                <p class="modalwindow__subtitle modalwindow__subtitle--order">test</p>
+                <div class="order">
+                    <img class="order__img" src="assets/images/dina160.jpg" alt="">
+                    <h3 class="order__title">
+                        <span class="order-product-title">Dina</span>
+                        <span class="order-product-price">35</span>&euro;
+                    </h3>
+                    <p class="order__size">160см</p>
+                    <form class="form">
+                        <input class="order-info-title" type="hidden" name="Ёлка">
+                        <input class="order-info-price" type="hidden" name="Цена">
+                        <input class="order-info-size" type="hidden" name="Размер">
+                        <input class="form__input" type="text" name="Имя" placeholder="Имя" required >
+                        <input class="form__input" type="text" name="Телефон" placeholder="Телефон" required >
+                        <input class="form__input" type="text" name="Адрес" placeholder="Адрес" required >
+                        <select class="form__input" name="Оплата">
+                            <option value="Оплата картой">Оплата картой</option>
+                            <option value="Оплата наличными">Оплата наличными</option>
+                        </select>
+                        <button class="btn form__btn" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Window Order End -->
+
+<!-- Modal Windows Thanks -->
+
+<div class="modalwindow modalwindow-thanks">
+    <div class="modalwindow__wrapper">
+        <div class="modalwindow__inner">
+            <div class="modalwindow__content">
+                <button class="btn-close modalwindow__btn-close modalwindow-close"></button>
+                <h2 class="page-title modalwindow__title">Успешно отправлено</h2>
+                <p class="modalwindow__subtitle">Мы готовим вашу ёлку к отправке!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Windows Thanks end -->
+
+<!-- Modal Windows Error -->
+
+<div class="modalwindow modalwindow-error">
+    <div class="modalwindow__wrapper">
+        <div class="modalwindow__inner">
+            <div class="modalwindow__content">
+                <button class="btn-close modalwindow__btn-close modalwindow-close"></button>
+                <h2 class="page-title modalwindow__title">Произошла ошибка</h2>
+                <p class="modalwindow__subtitle">Попробуйте позже</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Windows Error end -->
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- Text animation -->
+<script>
+    AOS.init({once: true});
+</script>
+
+<script src="assets/js/script.js"></script>
+<script src="assets/js/catalog.js"></script>
+<script src="assets/js/product.js"></script>
+<script src="assets/js/myLib.js"></script>
+<script src="assets/js/scrollTo.js"></script>
+<script src="assets/js/modalwindow.js"></script>
+<script src="assets/js/header.js"></script>
+
+</body>
+</html>
