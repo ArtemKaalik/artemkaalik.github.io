@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="assets/css/header-page.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/footer-page.css">
+    <link rel="stylesheet" href="assets/css/section-about.css">
     <link rel="stylesheet" href="assets/css/modalwindow.css">
     <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/section-contacts.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,12 +38,12 @@
               </a>
             </li>
             <li class="header-page__li">
-              <a class="header-page__link" href="#" data-scroll-to="section-catalog">
+              <a class="header-page__link" href="#" data-scroll-to="section-about">
                 <span class="header-page__text">О нас</span>
               </a>
             </li>
             <li class="header-page__li">
-              <a class="header-page__link" href="#" data-scroll-to="section-catalog">
+              <a class="header-page__link" href="#" data-scroll-to="section-contacts">
                 <span class="header-page__text">Контакты</span>
               </a>
             </li>
@@ -59,19 +61,19 @@
   </header>
 <!-- Header end -->
 
+<!-- section-about -->
 <div data-aos="fade-down">
-    <section class id="trees-info">
-        <div class="text-introduction">
-            <div class="info-section-container">
-            <h2>Производитель искусственных елок</h2>            
-                <p>Мы более 19 лет являемся производителем искусственных елок – продукция высочайшего качества. Мы работаем на рынке производства искусственных елок и оптовой продажи материалов для изготовления искусственных елок и венков с 2005 года. Мы делаем ставку на высококачественные товары, как отечественные, так и зарубежные, ведущим импортером которых являемся.</p>
-                <p>Мы динамично развивающаяся компания, постоянно совершенствующая нашу производственную линию. Из года в год мы расширяем ассортимент нашей продукции и повышаем ее качество, о чем свидетельствуют постоянные потребители елок, а также клиенты, всесторонне поставляющие у нас материалы, используемые для производства искусственных елок.</p>
-                <p>Мы можем похвастаться богатым предложением-доступны искусственные елки высотой от 30 см до 3 м, богатой цветовой гаммой и отделкой. Мы также производим искусственные елки нестандартных размеров в соответствии с потребностями наших клиентов. Вся продукция изготавливается из импортной ПВХ-пленки самого высокого качества с использованием современной производственной линии, что позволяет сохранить высокое качество нашей продукции.</p>
-            </div>
-        </div>
-    </section>
+<section class="section section-about">
+    <img src="assets/images/about-image.jpg" alt="" class="section-about__img">
+    <div class="container section-about__container">
+      <div class="section-about__content">
+        <h2 class="page-title section-about__title">О нас</h2>
+        <p class="section-about__text">Мы более 19 лет являемся производителем искусственных елок – продукция высочайшего качества. Мы работаем на рынке производства искусственных елок и оптовой продажи материалов для изготовления искусственных елок и венков с 2005 года. Мы делаем ставку на высококачественные товары, как отечественные, так и зарубежные, ведущим импортером которых являемся. Мы динамично развивающаяся компания, постоянно совершенствующая нашу производственную линию. Из года в год мы расширяем ассортимент нашей продукции и повышаем ее качество, о чем свидетельствуют постоянные потребители елок, а также клиенты, всесторонне поставляющие у нас материалы, используемые для производства искусственных елок. Мы можем похвастаться богатым предложением-доступны искусственные елки высотой от 30 см до 3 м, богатой цветовой гаммой и отделкой. Мы также производим искусственные елки нестандартных размеров в соответствии с потребностями наших клиентов. Вся продукция изготавливается из импортной ПВХ-пленки самого высокого качества с использованием современной производственной линии, что позволяет сохранить высокое качество нашей продукции.</p>
+      </div>
+    </div>
+  </section>
 </div>
-
+  <!-- /.section-about -->
 
 <!-- <div data-aos="fade-right">
 
@@ -206,10 +208,84 @@
                         </footer>
                     </div>
                 </div>
+                <div class="catalog__item" data-category="trimmed">
+                    <div class="product catalog__product">
+                        <img src="assets/images/green-tree.jpg" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Зелёная ёлка</h3>
+                            <p class="product__description">Ёлка Зёлёная</p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">120см</button>
+                                <button class="product__size" type="button">150см</button>
+                                <button class="product__size" type="button">180см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">35</span>
+                                    <span class="product__currency">&euro;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-modalwindow="modalwindow-order">Заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <div class="catalog__item" data-category="standart">
+                    <div class="product catalog__product">
+                        <img src="assets/images/Christmas-tree.jpg" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">Ёлка вечнозелёная</h3>
+                            <p class="product__description">Ёлка вечнозелёная</p>
+                        </div>
+                        <footer class="product__footer">
+                            <div class="product__sizes">
+                                <button class="product__size is-active" type="button">160см</button>
+                                <button class="product__size" type="button">190см</button>
+                                <button class="product__size" type="button">225см</button>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__price">
+                                    <span class="product__price-value">35</span>
+                                    <span class="product__currency">&euro;</span>
+                                </div>
+                                <button class="btn product__btn" type="button" data-modalwindow="modalwindow-order">Заказать</button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 </div>
+
+<!-- section-contacts -->
+<section class="section section-contacts">
+    <div class="container section-contacts__container">
+      <header class="section__header">
+        <h2 class="page-title sectoin-contacts__title">Контакты</h2>
+      </header>
+      <div class="contacts">
+        <div class="contacts__start">
+          <div class="contacts__map" id="ymap"></div>
+        </div>
+        <div class="contacts__end">
+          <div class="contacts__item">
+            <h3 class="contacts__title">Адрес</h3>
+            <p class="contacts__text">Tallinna mnt 2-14 Narva linn Ida-Viru maakond 20304</p>
+          </div>
+          <div class="contacts__item">
+            <h3 class="contacts__title">Телефон</h3>
+            <p class="contacts__text">
+              <a class="contacts__phone" href="#">+372 00000</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.section-contacts -->
+
 
 
 <footer class="footer">
@@ -224,7 +300,7 @@
         </div>
         <div class="call">
             <div class="subtitle">Узнайте о нас больше!</div>
-            <a href="info.html" class="link">О нас</a>
+            <a href="#" class="link">О нас</a>
             <a href="#" class="link">+37200000</a>
         </div>
     </div>
@@ -243,10 +319,10 @@
                         <a class="mobile-menu__link modalwindow-close" href="#" data-scroll-to="section-catalog">Товары</a>
                       </li>
                       <li class="mobile-menu__li">
-                        <a class="mobile-menu__link modalwindow-close" href="#" data-scroll-to="section-catalog">О нас</a>
+                        <a class="mobile-menu__link modalwindow-close" href="#" data-scroll-to="section-about">О нас</a>
                       </li>
                       <li class="mobile-menu__li">
-                        <a class="mobile-menu__link modalwindow-close" href="#" data-scroll-to="section-catalog">Контакты</a>
+                        <a class="mobile-menu__link modalwindow-close" href="#" data-scroll-to="section-contacts">Контакты</a>
                       </li>
                     </ul>
                   </nav>
@@ -279,7 +355,7 @@
                         <input class="order-info-size" type="hidden" name="Размер">
                         <input class="form__input" type="text" name="Имя" placeholder="Имя" required >
                         <input class="form__input" type="text" name="Телефон" placeholder="Телефон" required >
-                        <input class="form__input" type="text" name="Адрес" placeholder="Адрес" required >
+                        <input class="form__input" type="email" id="email" name="Адрес" placeholder="Адрес" required >
                         <select class="form__input" name="Оплата">
                             <option value="Оплата картой">Оплата картой</option>
                             <option value="Оплата наличными">Оплата наличными</option>
@@ -333,7 +409,10 @@
     AOS.init({once: true});
 </script>
 
+<script src="https://api-maps.yandex.ru/2.1/?lang=en_RU" type="text/javascript"></script> 
+
 <script src="assets/js/script.js"></script>
+<script src="assets/js/map.js"></script>
 <script src="assets/js/catalog.js"></script>
 <script src="assets/js/product.js"></script>
 <script src="assets/js/myLib.js"></script>
